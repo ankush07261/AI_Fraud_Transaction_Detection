@@ -10,5 +10,21 @@ This project uses an **unsupervised anomaly detection** technique to detect frau
 - Class imbalance handling
 - Confusion matrix + Classification report
 
-## 🔧 Requirements
-Install dependencies:
+## 🪜 Steps to run:
+### Clone the repo:
+```sh
+git clone https://github.com/ankush07261/AI_Fraud_Transaction_Detection
+```
+### Install the dependenies in the project dir:
+```sh
+cd AI_Fraud_Transaction_Detection
+pip install -r requirements.txt
+```
+### Run the main.py
+```sh
+python main.py
+```
+### Now, the model is trained and model.pkl is generated to run tests on any other data. Try testing on the new_test.csv by running test.py:
+```sh
+python test.py
+```
